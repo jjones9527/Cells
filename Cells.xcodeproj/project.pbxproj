@@ -21,6 +21,7 @@
 		3F4163C0184BDA4B000E5B6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4163A2184BDA4B000E5B6A /* UIKit.framework */; };
 		3F4163C8184BDA4B000E5B6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F4163C6184BDA4B000E5B6A /* InfoPlist.strings */; };
 		3F4163CA184BDA4B000E5B6A /* CellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4163C9184BDA4B000E5B6A /* CellsTests.m */; };
+		3F4AF6CF184C173F00261930 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4AF6CE184C173F00261930 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3F4163C5184BDA4B000E5B6A /* CellsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellsTests-Info.plist"; sourceTree = "<group>"; };
 		3F4163C7184BDA4B000E5B6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F4163C9184BDA4B000E5B6A /* CellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellsTests.m; sourceTree = "<group>"; };
+		3F4AF6CE184C173F00261930 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				3F4163A7184BDA4B000E5B6A /* InfoPlist.strings */,
 				3F4163AA184BDA4B000E5B6A /* main.m */,
 				3F4163AC184BDA4B000E5B6A /* Cells-Prefix.pch */,
+				3F4AF6CE184C173F00261930 /* CustomCell.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				3F4163B7184BDA4B000E5B6A /* Images.xcassets in Resources */,
 				3F4163A9184BDA4B000E5B6A /* InfoPlist.strings in Resources */,
+				3F4AF6CF184C173F00261930 /* CustomCell.xib in Resources */,
 				3F4163B2184BDA4B000E5B6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +464,7 @@
 				3F4163CF184BDA4B000E5B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F4163D0184BDA4B000E5B6A /* Build configuration list for PBXNativeTarget "CellsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				3F4163D2184BDA4B000E5B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
